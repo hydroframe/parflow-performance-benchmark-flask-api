@@ -1,0 +1,47 @@
+\documentclass[12pt,runningheads]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+
+%enable apa
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+%some additional packages
+\usepackage[pdftex]{graphicx}
+
+\begin{document}
+
+\title{Parflow Performance Benchmark API Documentation}
+\author{Nicholas Prussen}
+\maketitle
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+This documentation provides information on the request type of each API endpoint as well as the format of the data returned and/or received. These endpoints will be split into three groups (Adapt/Princeton/General), as certain endpoints are used exclusively on the different react apps.
+
+
+\section{Adapt Endpoints}
+
+\input{gethostnames}
+
+\input{getdomainsbyhostname}
+
+\input{getdocumentsbyhostnamedomain}
+
+
+\section{Princeton Endpoints}
+
+\input{getdocumentsprinceton}
+
+\section{Generic Endpoints}
+
+\input{getdocumentbyid}
+
+
+\newpage
+
+\end{document}
